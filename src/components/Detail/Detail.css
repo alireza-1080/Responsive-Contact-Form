@@ -1,0 +1,20 @@
+.detail-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.detail-container > .detail-children-container {
+    font-size: 30px;
+    color: #3e2093;
+}
+
+.detail-container h3 {
+    font-size: 24px;
+}
+
+.detail-container h4 {
+    color: #afafb6;
+}
